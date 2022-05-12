@@ -1,11 +1,12 @@
 /*  
-    #0dceda default color
-    #ffffff white
-    #28e6f2 highlight 1
-    #0aa0aa darker 1
-    #e6e6e6 grey
-    #2b2d2f dark grey
-    #58ecf5 highlight 2
+    #0DCEDA default color
+    #FFFFFF white
+    #28E6F2 highlight 1
+    #58ECF5 highlight 2
+    #0AA0AA darker 1
+    #A5A5A5 light grey
+    #E6E6E6 grey
+    #2B2D2F dark grey
 */
 
 html,
@@ -14,7 +15,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #2b2d2f;
+    color: #2B2D2F;
 }
 
 header {
@@ -44,7 +45,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0dceda;
+    background-color: #0DCEDA;
     top: 0;
 }
 
@@ -54,18 +55,18 @@ li {
 
 li a {
     display: block;
-    color: #ffffff;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #0aa0aa;
+    background-color: #0AA0AA;
 }
 
 .active {
-    background-color: #58ecf5;
+    background-color: #58ECF5;
 }
 
 footer {
@@ -73,7 +74,7 @@ footer {
     justify-content: space-around;
     position: fixed;
     bottom: 0;
-    background-color: #a5a5a5;
+    background-color: #A5A5A5;
     height: 70px;
     width: 100%;
 }
