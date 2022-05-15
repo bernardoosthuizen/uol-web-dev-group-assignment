@@ -1,0 +1,33 @@
+.events-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.event-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.event-card-img {
+  flex: 30%;
+}
+
+.event-card-desc {
+  flex: 70%;
+  background-color: #28E6F2;
+  padding: 2rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .event-card-wrapper {
+    flex-direction: column;
+  }
+}
