@@ -4,6 +4,7 @@
     #28E6F2 highlight 1
     #58ECF5 highlight 2
     #0AA0AA darker 1
+    #F1F2F4 very light grey
     #A5A5A5 light grey
     #E6E6E6 grey
     #2B2D2F dark grey
@@ -16,6 +17,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #2B2D2F;
+    background-color: #F1F2F4;
 }
 
 header {
@@ -23,6 +25,50 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.content-container {
+    padding-bottom: 100px;
+}
+
+.display-container {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.hero-desc-container {
+    position: absolute;
+    top:25%;
+    left: 10%;
+}
+
+.hero-desc-title {
+    color: #fff;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-desc-subtitle {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-button {
+    color: #2B2D2F;
+    padding: 12px 24px;
+    font-size: 18px;
+    opacity: 0.60;
+    font-family: 'Oswald', sans-serif;
+}
+
 
 .logo-wrapper,
 .header-info-wrapper {
@@ -34,9 +80,9 @@ header {
 }
 
 nav {
-    position: -webkit-sticky;
+    /* position: -webkit-sticky;
     /* Safari */
-    position: sticky;
+    position: sticky; 
     top: 0
 }
 
@@ -81,4 +127,10 @@ footer {
 
 .footer-wrapper {
     align-self: center;
+    color: #58ECF5;
+}
+
+.footer-logo {
+    width: 50%;
+    padding-top: 15px;
 }
