@@ -1,6 +1,10 @@
+.content-container {
+  padding-bottom: 20px;
+}
+
 /* FAQ */
 
-.faq-title {
+.title {
   margin: 0 auto;
 }
 
@@ -42,4 +46,24 @@
   display: none;
 }
 
+/* DIRECTIONS */
+.directions-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.directions-header {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.map {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  margin: 35px 0;
+}
 
