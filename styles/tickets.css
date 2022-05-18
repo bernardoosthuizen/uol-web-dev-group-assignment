@@ -6,3 +6,59 @@
   text-align: center;
 }
 
+.ticket-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ticket-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ticket-card {
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ticket-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ticket-card-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.ticket-card-desc {
+  padding: 2px 16px;
+}
+
+.price-whole, .price-desc {
+  font-size: 21px;
+}
+
+.price-fraction, .price-symbol {
+  top: -0.5em;
+  font-size: 12px;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+
+  .ticket-row,
+  .park-desc-container {
+
+    flex-direction: column;
+  }
+
+  .ticket-card {
+    width: auto;
+  }
+}
