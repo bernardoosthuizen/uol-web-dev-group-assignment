@@ -94,6 +94,11 @@
 .social-container img{
   width: 30px;
   margin: 25px auto;
+  transition: 0.5s;
+}
+
+.social-container img:hover{
+  scale: 1.2;
 }
 
 .social-container {
