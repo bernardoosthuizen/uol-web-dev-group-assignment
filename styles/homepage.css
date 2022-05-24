@@ -3,10 +3,6 @@
   margin: 0 auto;
 }
 
-/* .spotlight-wrapper {
-  
-} */
-
 .spotlight-row,
 .explore-row {
   display: flex;
@@ -27,6 +23,7 @@
 .spotlight-card:hover,
 .explore-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }
 
 .spotlight-card-img,
@@ -40,19 +37,6 @@
   padding: 2px 16px;
 }
 
-.explore-card-button {
-  padding: 10px 30px;
-  background-color: #0DCEDA;
-  color: #FFFFFF;
-  margin: 10px 0;
-  border: 1px solid #0DCEDA;
-  border-radius: 5px;
-}
-
-.explore-card-button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0AA0AA;
-}
 
 .park-desc-container {
   display: flex;
@@ -76,7 +60,6 @@
 
 
 @media (max-width: 800px) {
-
   .spotlight-row,
   .explore-row,
   .park-desc-container {
