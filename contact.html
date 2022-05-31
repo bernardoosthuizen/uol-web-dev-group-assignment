@@ -28,11 +28,11 @@
 </head>
 
 <body>
-  <!-- nav -->
+  <!-- NAVBAR : helps users navigate the site -->
   <header>
     <nav>
       <a href="index.html" class="header-link">Home</a>
-      <a href="events.html" class="header-link">Events</a>
+      <a href="facilities.html" class="header-link">Facilities</a>
       <img src="assets/images/logo.svg" alt="park_logo" class="logo" />
       <a href="tickets.html" class="header-link">Tickets</a>
       <a href="contact.html" class="header-link active">Contact Us</a>
@@ -40,7 +40,7 @@
   </header>
     
   
-  <!-- FAQ -->
+  <!-- FAQ : users click on frequently asked questions to view the answer-->
   <section class="content-container">
     <header>
       <div class="title">
@@ -51,10 +51,12 @@
 
       <!-- FAQ ~ Question 1 -->
       <div>
+        <!-- Clickable question; answer appears once clicked -->
         <input type="checkbox" id="question1" name="q"  class="questions">
         <label for="question1" class="question">
           What types of personal items should I bring when visiting?
         </label>
+        <!-- Answer, which is displayed when the corresponding question is clicked -->
         <div class="answer">
           We recommend that you bring light clothing, swimming gear, comfortable walking shoes and sunscreen. 
         </div>
@@ -62,10 +64,12 @@
 
       <!-- FAQ ~ Question 2 -->
       <div>
+        <!-- Clickable question; answer appears once clicked -->
         <input type="checkbox" id="question2" name="q"  class="questions">
         <label for="question2" class="question">
           What kinds of merchandise are available for sale?
         </label>
+        <!-- Answer, which is displayed when the corresponding question is clicked -->
         <div class="answer">
           Mountain Park features many shops offering a wide variety of gifts and souvenirs. <a href="tickets.html">Click here</a> to see what is on offer.
         </div>
@@ -73,10 +77,12 @@
 
       <!-- FAQ ~ Question 3 -->
       <div>
+        <!-- Clickable question; answer appears once clicked -->
         <input type="checkbox" id="question3" name="q"  class="questions">
         <label for="question3" class="question">
           Are there height requirements for any of the attractions?
         </label>
+        <!-- Answer, which is displayed when the corresponding question is clicked -->
         <div class="answer">
           For your safety, some attractions require that guests be a specific height or taller. The minimum height requirement for all rides is 120cm / 47 inches.
         </div>
@@ -84,10 +90,12 @@
 
       <!-- FAQ ~ Question 4 -->
       <div>
+        <!-- Clickable question; answer appears once clicked -->
         <input type="checkbox" id="question4" name="q"  class="questions">
         <label for="question4" class="question">
           What currencies are accepted at Mountain Park?
         </label>
+        <!-- Answer, which is displayed when the corresponding question is clicked -->
         <div class="answer">
           All fiat and digital currencies are accepted.
         </div>
@@ -95,10 +103,12 @@
 
       <!-- FAQ ~ Question 5 -->
       <div>
+        <!-- Clickable question; answer appears once clicked -->
         <input type="checkbox" id="question5" name="q"  class="questions">
         <label for="question5" class="question">
           What kinds of food can guests bring into the park? 
         </label>
+        <!-- Answer, which is displayed when the corresponding question is clicked -->
         <div class="answer">
           No external food or drinks are allowed to be brought into the park unless required due to medical reasons.
         </div>
@@ -106,7 +116,7 @@
     </div>
   </section>
 
-  <!-- DIRECTIONS -->
+  <!-- DIRECTIONS : help users find their way to the park-->
   <section class="content-container">
     <div class="directions-container">
 
@@ -121,13 +131,10 @@
         </div>
       </header>
         
-      <!-- GOOGLE MAP DISPLAY -->
+      <!-- GOOGLE MAP DISPLAY : users can view the park's location on an interactive map -->
       <div class="map">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392352.0193469007!2d-106.67967094059735!3d39.158558700485955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a9eed65169f67%3A0x5f551784f65ce6d3!2sMt%20Massive!5e0!3m2!1sen!2shk!4v1652768919929!5m2!1sen!2shk" 
-          width="600" 
-          height="450" 
-          style="border:0;" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392352.0193469007!2d-106.67967094059735!3d39.158558700485955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a9eed65169f67%3A0x5f551784f65ce6d3!2sMt%20Massive!5e0!3m2!1sen!2shk!4v1652768919929!5m2!1sen!2shk"  
           allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
@@ -136,38 +143,40 @@
     </div>
   </section>
 
-  <!-- CONTACT CARD-->
+  <!-- CONTACT CARD : information about how user's can contact the park-->
   <section class="content-container">
-    <div class="contact-card">
+    <div class="contact-container">
       <header>
         <div class="title">
           <h1>Contact Us</h1>
         </div>
       </header>
       <p>Please select your preferred contact method below:</p>
-      <div class="button-container">
+      <div class="contact-button-container">
+        <!-- Button that opens an email that can be sent to get in contact -->
         <a href="mailto:fakecontact@mountainpark.com?subject=Mountain Park Enquiry">
           <button class="general-button">Email</button>
         </a>
-        <a href="tel:123-456-0000"">
+        <!-- Button that places a call -->
+        <a href="tel:123-456-0000">
           <button class="general-button">Phone</button>
         </a>
       </div>
+      <!-- Social Media Icons which for the purpose of this project link back to /contact page -->
       <div class="social-container">
-        
-        <a href="https://www.facebook.com/mountainpark">
+        <a href="/contact">
           <img src="assets/images/social-icons/facebook.png" alt="Facebook social media icon">
         </a>
-        <a href=https://twitter.com/mountainpark">
+        <a href="/contact">
           <img src="assets/images/social-icons/twitter.png" alt="Twitter social media icon">
         </a>
-        <a href="https://www.instagram.com/mountainpark">
+        <a href="/contact">
           <img src="assets/images/social-icons/instagram.png" alt="Instagram social media icon">
         </a>
-        <a href="https://www.youtube.com/mountainpark">
+        <a href="/contact">
           <img src="assets/images/social-icons/youtube.png" alt="Youtube social media icon">
         </a>
-        <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a> -->
+        <!-- Icons created by Pixel perfect - Flaticon https://www.flaticon.com/free-icons/ -->
       </div>
     </div>
   </section>
