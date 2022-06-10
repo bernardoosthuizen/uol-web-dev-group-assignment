@@ -6,12 +6,14 @@
   text-align: center;
 }
 
-.ticket-wrapper {
+.ticket-wrapper,
+.merchandise-wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
-.ticket-row {
+.ticket-row,
+.merchandise-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -41,6 +43,25 @@
   padding: 2px 16px;
 }
 
+.merchandise-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 33%;
+  margin: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.merchandise-card-img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.merchandise-desc {
+  padding: 2px 16px;
+}
+
 .price-whole, .price-desc {
   font-size: 21px;
 }
@@ -54,12 +75,13 @@
 @media (max-width: 900px) {
 
   .ticket-row,
+  .merchandise-row,
   .park-desc-container {
-
     flex-direction: column;
   }
 
-  .ticket-card {
+  .ticket-card,
+  .merchandise-card {
     width: auto;
   }
 }
