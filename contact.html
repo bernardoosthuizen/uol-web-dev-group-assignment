@@ -14,7 +14,6 @@
 
   <!-- css -->
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
-  <link rel="stylesheet" type="text/css" href="styles/contact.css" />
 
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,13 +38,13 @@
     </nav>
   </header>
     
-  
+  <header class="title">
+    <h1>Contact Us</h1>
+  </header>
   <!-- FAQ : users click on frequently asked questions to view the answer-->
   <section class="content-container">
-    <header>
-      <div class="title">
-        <h1>Frequently Asked Questions</h1>
-      </div>
+    <header class="title">
+        <h2>Frequently Asked Questions</h2>
     </header>
     <div class="faq-content">
 
@@ -119,25 +118,22 @@
   <!-- DIRECTIONS : help users find their way to the park-->
   <section class="content-container">
     <div class="directions-container">
-
-      <!-- TITLE & DESCRIPTION -->
       <div class="title directions-header">
         <header>
-          <h1>Address</h1>
+          <h2>Address</h2>
         </header>
           <address>
             <p>1, Mountain Lane, Mountain City, 303030</p>
           </address>
-        <h1>Directions</h1>
+        <h3>Directions</h3>
         <p>
           All roads lead to Mountain Park! <br> 
           Whether you are flying, driving or walking; this map will help you find an adventure of a lifetime.
         </p>
-        <h1>Opening Hours</h1>
+        <h3>Opening Hours</h3>
         <p>24 hours a day, 7 days a week!</p>
       </div>
       
-        
       <!-- GOOGLE MAP DISPLAY : users can view the park's location on an interactive map -->
       <div class="map">
         <iframe 
@@ -153,17 +149,15 @@
   <!-- CONTACT CARD : information about how user's can contact the park-->
   <section class="content-container">
     <div class="contact-container">
-      <header>
-        <div class="title">
-          <h1>Contact Us</h1>
-        </div>
+      <header class="title">
+          <h2>Contact Us</h2>
       </header>
       <p>Please select your preferred contact method below:</p>
       <div class="contact-button-container">
         <!-- Button that opens an email that can be sent to get in contact -->
-        <button class="general-button">Email</button>
+        <button onclick="location.href='mailto:fakesupport@mountainpark.com';" class="general-button">Email</button>
         <!-- Button that places a call -->
-        <button class="general-button">Phone</button>
+        <button onclick="location.href='tel:8665562570';" class="general-button">Phone</button>
       </div>
       <!-- Social Media Icons which for the purpose of this project link back to /contact page -->
       <div class="social-container">
@@ -187,7 +181,7 @@
   <!-- footer -->
   <footer>
     <div class="footer-wrapper">
-      <img src="assets/images/logo.svg" class="footer-logo" alt="Mountain Park Footer Logo" />
+      <img src="assets/images/logo.svg" class="footer-logo" alt="Mountain Park small logo" />
     </div>
     <div class="spacer"></div>
     <div class="footer-wrapper">

@@ -14,7 +14,6 @@
 
   <!-- css -->
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
-  <link rel="stylesheet" type="text/css" href="styles/homepage.css" />
 
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,32 +39,36 @@
     </nav>
   </header>
   <!-- main section -->
-  <section class="content-container">
+  <div class="content-container">
 
     <!-- banner section -->
     <section class="hero-container">
       <img class="hero-image" src="assets/images/we-are-mario.png" alt="hero image ferris wheel" />
       <div class="hero-captions">
-        <header class="h2">NOT LIMITS</header>
-        <br>
+        <header>
+          <h2>NO LIMITS</h2>
+        </header>
         <span>Let Loose! Here is Super Energetic Special Zone.</span>
         <br>
-        <span>Event Period : Mar. 29, 2022 -</span>
+        <span>Event Period : Mar. 29, 2022 - Dec. 31, 2022</span>
       </div>
     </section>
 
     <!-- Call to action section -->
     <section class="container-fluid call-to-action-container">
       <div class="call-to-action">
-        <header class="h2">Wales’ Biggest Theme Park</header>
+        <header>
+          <h2>World's Biggest Theme Park</h2>
+        </header>
         <p>
           Whether it’s an adrenaline-fuelled experience or a magical adventure, Mountain Theme Park has thrills for all.
         </p>
         <br>
          <!-- call to action button, this is a <a> tag because it is a link -->
-        <a class="btn-primary" href="#">
-          Book online now
-        </a>
+        <div class="general-button" >
+          <a href="/tickets.html">Book online now</a>
+        </div>
+        
       </div>
       <picture>
         <img src="./assets/images/call_to_action_img.png" alt="Park picture">
@@ -74,7 +77,9 @@
 
     <!-- Experience section -->
     <section class="container-fluid experience-container">
-      <header class="h2">Experience</header>
+      <header>
+        <h2>Experience</h2>
+      </header>
       <div class="cards-container">
         <!-- this is a list of clickable elements -->
         <a href="facilities.html" class="card">
@@ -94,7 +99,9 @@
 
     <!-- news section -->
     <section class="container-fluid news-container">
-      <header class="h2">News</header>
+      <header>
+        <h2>News</h2>
+      </header>
       <div class="news-row">
         <!-- this is a list of cards, each card represent a news item -->
         <div class="news-card">
@@ -131,12 +138,12 @@
         </div>
       </div>
     </section>
-  </section>
+  </div>
  
   <!-- footer -->
   <footer>
     <div class="footer-wrapper">
-      <img src="assets/images/logo.svg" class="footer-logo" alt="footer-logo" />
+      <img src="assets/images/logo.svg" class="footer-logo" alt="Mountain Park small logo" />
     </div>
     <div class="spacer"></div>
     <div class="footer-wrapper">
