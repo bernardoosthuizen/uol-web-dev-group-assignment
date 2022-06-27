@@ -260,6 +260,8 @@ margin: 0 auto;
 }
 
 .event-card-wrapper {
+overflow: hidden;
+border-radius: 0.5rem;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
@@ -268,11 +270,15 @@ margin-top: 20px;
 
 .event-card-img {
 flex: 30%;
+transition: all 0.3s ease-in-out;
 }
-
+.event-card-img:hover {
+transform: scale(1.2);
+}
 .event-card-desc {
 flex: 70%;
-background-color: #28E6F2;
+/*background-color: #28E6F2;*/
+    background-color:aliceblue;
 padding: 2rem;
 }
 
